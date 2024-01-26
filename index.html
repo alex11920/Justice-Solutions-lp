@@ -80,16 +80,16 @@
         <section>
             <div class="hero min-h-screen" style="background-image: url(images/banner.png); border-radius:8px;">
                 <div class="hero-overlay bg-black bg-opacity-40 rounded-lg"></div>
-                <div class="hero-content text-center text-neutral-content">
+                <div class="hero-content text-center text-neutral-content mt-6 lg:mt-0">
                     <div>
                         <h1 class="mb-6 text-7xl font-extrabold eb-font leading-[85px]">We Provide Effective<br>Legal
                             Solutions</h1>
                         <p class="mb-8 max-w-2xl">There are many variations of passages of Lorem Ipsum available, but
                             the majority have suffered alteration in some form, by injected humour.</p>
-                        <div class="flex flex-col lg:flex-row gap-6">
+                        <div class="flex flex-col lg:flex-row gap-3 lg:gap-6">
                             <input type="text" placeholder="Search your services"
                                 class="input w-full max-w-lg py-5 text-[#A0A0A0]" />
-                            <button class="btn bg-primary text-white font-semibold lg:px-7 border-none">Search</button>
+                            <button class="btn bg-primary text-white font-semibold lg:px-7 border-none mb-4 lg:mb-0">Search</button>
                         </div>
                     </div>
                 </div>
@@ -97,8 +97,8 @@
         </section>
 
         <!-- section 3 -->
-        <section class="mt-28">
-            <div class="text-center mb-16">
+        <section class="mt-14 lg:mt-28">
+            <div class="text-center mb-10 lg:mb-16">
                 <h2 class="eb-font text-4xl text-h-color font-extrabold mb-6">What Our Client Say</h4>
                     <p class="max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the
                         majority have suffered alteration in some form, by injected humour.</p>
@@ -180,8 +180,8 @@
         </section>
 
         <!-- section 4 -->
-        <section class="mt-28">
-            <div class="text-center mb-16">
+        <section class="mt-14 lg:mt-28">
+            <div class="text-center mb-10 lg:mb-16">
                 <h2 class="eb-font text-4xl text-h-color font-extrabold mb-6">Frequently Asked Any Questions</h4>
                     <p class="max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the
                         majority have suffered alteration in some form, by injected humour.</p>
@@ -232,22 +232,66 @@
                 </div>
 
                 <div>
-                    <img src="images/faq.png" alt="">
+                    <img class="max-w-[75%] lg:max-w-[100%] mx-auto" src="images/faq.png" alt="">
                 </div>
             </div>
         </section>
 
         <!-- section 5 -->
-        <section class="mt-28">
-            <div class="text-center mb-16">
+        <section class="mt-14 lg:mt-28">
+            <div class="text-center mb-10 lg:mb-16">
                 <h2 class="eb-font text-4xl text-h-color font-extrabold mb-6">Contact With Us</h4>
                     <p class="max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the
                         majority have suffered alteration in some form, by injected humour.</p>
             </div>
+
+            <div class="flex flex-col lg:flex-row gap-6 lg:gap-14 justify-center">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <!-- top-left-box -->
+                    <div
+                        class="flex flex-col gap-4 bg-[#F3F3F3] lg:w-72 h-72 justify-center text-center border-b-2 lg:border-b-0 lg:border-r-2 border-[#CFCFCF]">
+                        <img class="max-w-fit mx-auto" src="images/location.png" alt="">
+                        <h4 class="eb-font text-2xl font-extrabold text-h-color">Address</h4>
+                        <p class="text-word-color">A108 Adam Street,<br>
+                            New York, NY 535022</p>
+                    </div>
+                    <!-- top-right-box -->
+                    <div class="flex flex-col gap-4 bg-[#F3F3F3] lg:w-72 h-72 justify-center border-b-2 lg:border-b-0 text-center border-[#CFCFCF]">
+                        <img class="max-w-fit mx-auto" src="images/call.png" alt="">
+                        <h4 class="eb-font text-2xl font-extrabold text-h-color">Call Us</h4>
+                        <p class="text-word-color">+88 01750 00 00 00<br>
+                            +88 01750 00 00 00</p>
+                    </div>
+                    <!-- bottom-left-box -->
+                    <div
+                        class="flex flex-col gap-4 bg-[#F3F3F3] lg:w-72 h-72 justify-center text-center lg:border-t-2 lg:border-r-2 border-[#CFCFCF]">
+                        <img class="max-w-fit mx-auto" src="images/email.png" alt="">
+                        <h4 class="eb-font text-2xl font-extrabold text-h-color">Email Us</h4>
+                        <p class="text-word-color">info@gmail.com<br>
+                            info@gmail.com</p>
+                    </div>
+                    <!-- bottom-right-box -->
+                    <div
+                        class="flex flex-col gap-4 bg-[#F3F3F3] lg:w-72 h-72 justify-center text-center border-t-2 border-[#CFCFCF]">
+                        <img class="max-w-fit mx-auto" src="images/time.png" alt="">
+                        <h4 class="eb-font text-2xl font-extrabold text-h-color">Working Hours</h4>
+                        <p class="text-word-color">Mon-Fri: 9AM to 5PM<br>
+                            Sunday: 9AM to 1 PM</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 lg:gap-8 lg:w-full lg:max-w-[570px]">
+                    <input type="text" placeholder="Your Name" class="input lg:py-7 bg-[#F3F3F3] rounded-lg" />
+                    <input type="text" placeholder="Your Email" class="input lg:py-7 bg-[#F3F3F3] rounded-lg" />
+                    <input type="text" placeholder="Subject" class="input lg:py-7 bg-[#F3F3F3] rounded-lg" />
+                    <textarea class="textarea lg:py-4 bg-[#F3F3F3] rounded-lg lg:h-[230px]"
+                        placeholder="Your Message"></textarea>
+                    <button class="btn bg-primary text-white">Send Message</button>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer class="footer grid grid-cols-2 lg:grid-cols-4 p-10 lg:p-28 bg-[#111111] text-base-content text-[#CFCFCF]">
+    <footer class="footer mt-14 lg:mt-28 grid grid-cols-2 lg:grid-cols-4 p-10 lg:p-28 bg-[#111111] text-base-content text-[#CFCFCF] justify-center">
         <div
             class="col-span-2 lg:col-span-1 flex flex-col mx-auto lg:mx-0 text-center items-center lg:items-start lg:text-start justify-center">
             <img src="images/logo.png" alt="">
